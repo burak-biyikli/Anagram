@@ -39,7 +39,7 @@ for i in stuff:
             words[len(i)-3].append(i)
 
 #Read in second file
-file = "words_alpha.txt"
+file = "alpha.txt"
 with open(file) as g:
     stuff = g.readlines()
 stuff = [x.strip() for x in stuff]
